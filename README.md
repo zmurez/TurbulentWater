@@ -10,7 +10,7 @@ Code for "Learning to See through Turbulent Water" WACV 2018
 
 python main.py --dataroot DATAROOT
 
-## Minor modifications from paper
+## Minor modifications from the paper
 - added a reconstruction (L1) and perceptual loss (VGG) to the output of the WarpNet
 - all networks are trained for 3 epochs with all the losses from the start, with a constant learning rate of .0002
 - all hyper-parameter weights are set to 1.0 except the perceptual and adversarial losses of the final output which are set to 0.5 and 0.2 respectively
