@@ -150,8 +150,8 @@ def train(loader, model, fixed_batch, epoch, args):
                 
         end_time = time.time()
 
-        if i==10:
-            break
+        #if i==10:
+        #    break
 
 def visualize(input, target, model, name):
     model.eval()
@@ -185,8 +185,8 @@ def test(loader, model, args):
             print '%s Test: %04d/%04d time: %.3f %.3f '%(args.exp_name, i, len(loader), data_time, batch_time)
             end_time = time.time()
 
-            if i==10:
-                break
+            #if i==10:
+            #    break
 
 
 
