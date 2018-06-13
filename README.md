@@ -1,6 +1,8 @@
 # TurbulentWater
 Code for "Learning to See through Turbulent Water" WACV 2018
 
+Data and pretrained models are available at http://cseweb.ucsd.edu/~viscomp/projects/WACV18Water/
+
 ## Instructions
 - download train.zip, val.zip and test.zip from http://cseweb.ucsd.edu/~viscomp/projects/WACV18Water/
 - unzip train.zip into DATAROOT/Water
